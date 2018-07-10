@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9-160P4202242" translatesAutoresizingMaskIntoConstraints="NO" id="Osu-7z-qsy">
+                                <rect key="frame" x="24" y="45" width="147" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="Coe-kb-0TB"/>
+                                    <constraint firstAttribute="width" constant="147" id="NOl-eA-s0c"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nkU-Lw-1mn">
+                                <rect key="frame" x="204" y="45" width="147" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="PtK-f9-7Kg"/>
+                                    <constraint firstAttribute="width" constant="147" id="tGF-jE-nMr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZUf-q7-kgG">
+                                <rect key="frame" x="24" y="239" width="147" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="a1X-7R-P1b"/>
+                                    <constraint firstAttribute="width" constant="147" id="bGo-OC-YAe"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kf4-qe-r0s">
+                                <rect key="frame" x="204" y="239" width="147" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="JdB-Ao-w9R"/>
+                                    <constraint firstAttribute="width" constant="147" id="Wck-yy-Hy3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-2b-fHL">
+                                <rect key="frame" x="24" y="437" width="147" height="174"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="147" id="CaV-K1-Otc"/>
+                                    <constraint firstAttribute="height" constant="174" id="J3X-Um-r27"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xej-Xu-zOe">
+                                <rect key="frame" x="204" y="437" width="147" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nkU-Lw-1mn" secondAttribute="trailing" constant="24" id="75k-kH-OC4"/>
+                            <constraint firstItem="KhM-2b-fHL" firstAttribute="top" secondItem="ZUf-q7-kgG" secondAttribute="bottom" constant="24" id="ApX-aB-mEh"/>
+                            <constraint firstItem="KhM-2b-fHL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="RFo-zG-Ni3"/>
+                            <constraint firstItem="ZUf-q7-kgG" firstAttribute="top" secondItem="Osu-7z-qsy" secondAttribute="bottom" constant="20" id="TD2-SV-eYT"/>
+                            <constraint firstItem="ZUf-q7-kgG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="UzU-cz-d85"/>
+                            <constraint firstItem="nkU-Lw-1mn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="X3U-69-MIM"/>
+                            <constraint firstItem="Osu-7z-qsy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="XyK-p4-D8e"/>
+                            <constraint firstItem="Osu-7z-qsy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="kOW-Ly-ib7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kf4-qe-r0s" secondAttribute="trailing" constant="24" id="n0T-eq-P33"/>
+                            <constraint firstItem="kf4-qe-r0s" firstAttribute="top" secondItem="nkU-Lw-1mn" secondAttribute="bottom" constant="20" id="zkX-1N-7UR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="imageViews" destination="nkU-Lw-1mn" id="fiC-ru-rHu"/>
+                        <outletCollection property="imageViews" destination="ZUf-q7-kgG" id="IPs-nH-Zd9"/>
+                        <outletCollection property="imageViews" destination="kf4-qe-r0s" id="aCJ-yR-Xlj"/>
+                        <outletCollection property="imageViews" destination="KhM-2b-fHL" id="ag1-qr-xcM"/>
+                        <outletCollection property="imageViews" destination="xej-Xu-zOe" id="6pD-mI-fEK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-191.19999999999999" y="97.601199400299862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="9-160P4202242" width="331" height="495"/>
+    </resources>
+</document>
